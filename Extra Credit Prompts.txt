@@ -1,0 +1,55 @@
+Please write HTML, CSS, and JavaScript code for a website that will list out the building names and markers on a map containing the building locations based on a filter from an input box and radio buttons. The API is https://api.umd.io/v1/map/buildings.
+
+Please replace the google maps API with https://leafletjs.com/ maps feature
+
+Please include a filter button with the features of filtering out the data based on the input box or the radio buttons consisting of residence, dining, library, sports, and parking
+
+Please use the latest version of leaflet.js
+
+The leaflet.js version should be 1.9.3
+
+Please center the graph to College Park, MD
+
+This error popped up: tLng.js:32 Uncaught (in promise) Error: Invalid LatLng object: (38.992006368432, undefined)
+
+The filter button is not working
+
+Please change the radio buttons value to residence, dining, library, sports, and parking
+
+Please list out the building names based on the filter
+
+The filter button does not work and nothing is being displayed when I rpess the filter button
+
+Please remove the markers feature
+
+The input box filters correctly but the radio buttons do not filter. This is the error: caught TypeError: Cannot read properties of undefined (reading 'toLowerCase') script.js:42
+
+The radio buttons are still not filtering correctly, there are no errors that result
+
+There should be no building category, the filtered list should contain building names with the filterValue in them
+
+Please uncheck all radio buttons when an input is being type out
+
+Do not filter the list until the complete word is typed and the filter button is pressed
+
+Please add these features: -Using localStorage, load your data into a collection that saves itself to the browser.
+-Make sure your filter methods are filtering that data set and not a fresh one every time the page loads.
+-Add a form control to really refresh the page. Add a button you can click to do an API call that will swap out the localStorage for something new.
+
+I have an error saying data is not defined
+
+for the refresh button add event listener, it says "TypeError: Cannot read properties of null (reading 'addEventListener') script.js:52"
+
+Please clear the input box when a radio button is selected
+
+Allow the refresh button to work at anytime
+
+The refresh button should clear the existing localstorage and call in a new dataset with no filters from the API
+
+the filter button does not work properly anymore when selecting radio button options
+
+Update the CSS to have the map and the buildings list side by side
+
+please update the HTML accordingly
+
+Please update the above HTML with the corresponding containers in the CSS
