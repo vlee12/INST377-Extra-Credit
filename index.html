@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Building Map</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin=""/>
+  </head>
+  <body>
+    <h1>Building Map</h1>
+    <input type="text" id="search" placeholder="Search for a building">
+    <br>
+    <input type="radio" name="filter" value="residence">Residence
+    <input type="radio" name="filter" value="dining">Dining
+    <input type="radio" name="filter" value="library">Library
+    <input type="radio" name="filter" value="sports">Sports
+    <input type="radio" name="filter" value="parking">Parking
+    <br>
+    <button id="filter-button">Filter</button>
+    <button id="refresh-button">Refresh Data</button>
+    <div id="map"></div>
+    <h2>Buildings</h2>
+    <ul id="building-list"></ul>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+    crossorigin=""></script>
+    <script src="script.js"></script>
+  </body>
+</html>
